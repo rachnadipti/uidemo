@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container{
+    background-color: black;
+    height: 15vh;
+    border-bottom: 2px solid #64B946;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .logo{
+    height: 12vh;
+    }
+    
+    .nav-bar{
+    margin-left: 10vw;
+    }
+    
+    .nav-bar ul{
+    list-style-type: none;
+    }
+    
+    .nav-bar ul li{
+    display: inline;
+    padding: 1em;
+    }
+    
+    .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    .nav-bar ul li a:hover{
+    color: coral;
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+    }
+    
+    .btn{
+     background: #64B946;
+    color: white;
+    border: 2px solid white;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 15px;
+    }
+    
+    .btn:hover{
+    background:white;
+    color: #64B946;
+    border: 2px solid #64B946;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 15px;
+    }
+    /*header formatting section ends here */
+    /*main section formatting starts here*/
+    .main{
+        background-image: url(../images/background-img.jpg);
+    height:70vh;
+    text-align: center;
+    }
+   .main h1{
+    margin: 0em;
+    padding-top: 20vh;
+    font-size: 7em;
+    color: #64B946;
+    }
+    main h4{
+        text-align: center;
+        color: #fff;
+        font-style: italic;
+        font-size: 1.5em;
+        margin: 0 auto;
+    }
+    .card-section{
+        background: rgba(51, 51, 51, 0.7);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    background-position: 100% center;
+    }
+    
+    .card-section h2{
+    text-align: center;
+    color: #fff;
+    }
+    
+    .card-section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    }
+    .card h3{
+        color: #64B946;
+    }
+    .card img{
+    height: 35vh;
+    width:15vw;
+    }
+    
+    .card{
+    background-color: white;
+    text-align: center;
+    height: 65vh;
+    width:15vw;
+    padding: 1em;
+    margin: 20px;
+    box-shadow: 5px 5px 30px grey; 
+    }
+    footer{
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    border: 2px solid #64B946;
+    margin: 0;
+    color: #fff;
+    }
+    
+    footer h2{
+    padding-top: 1em;
+    }
