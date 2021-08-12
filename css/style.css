@@ -34,7 +34,7 @@ body{
     }
     
     .nav-bar ul li a:hover{
-    color: coral;
+    color: #64B946;
     border-bottom: 1px solid white;
     padding-bottom: 1em;
     }
