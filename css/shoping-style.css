@@ -100,14 +100,16 @@ body {
   .how-help,
   .about-us,
   .gallrery,
-  .video {
+  .video, 
+  .contact-us{
     margin-bottom: 50px;
   }
   .product h2,
   .how-help h2,
   .about-us h2,
   .gallrery h2,
-  .video h2 {
+  .video h2, 
+  .contact-us h2 {
     margin-bottom: 20px;
   }
   .how-help .img-card h4 {
@@ -137,7 +139,7 @@ body {
   .contact-us .btn {
     padding: 8px 15px;
     background: greenyellow;
-    margin: 10px auto;
+    margin-top: 20px;
     border-radius: 20px;
     font-weight: bold;
   }
