@@ -1,0 +1,86 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title></title>
+      <style>
+         body{
+         font-family: Arial, Helvetica, sans-serif;
+         }
+         div {
+         margin: 20px;
+         }.btn{ text-align: center;
+         background: rgb(234, 117, 64);
+         margin: auto;
+         display: block;
+         border: none;
+         padding: 15px;
+         color: #fff;}
+      </style>
+   </head>
+   <body>
+      <div>
+         <form action="#">
+            <h3>Personal Details</h3>
+            <p> <label>Name</label>
+               <input type="text" id="name" name="name" placeholder="Enter name here">
+            </p>
+            <p><label>Address</label>
+               <input type="text" id="address" name="address" placeholder="Enter address here">
+            </p>
+            <p> <label>Email</label>
+               <input type="text" id="email" name="email" placeholder="Enter Email here">
+            </p>
+            <p><label>Phone Number</label>
+               <input type="number" id="num" name="number" placeholder="Enter 10 digit number here">
+            </p>
+            <p><label>IQ</label>
+               <input type="text" id="iq" name="iq" placeholder="Enter IQ here">
+            </p>
+            <p>Gender</p>
+            <input type="radio" id="male" name="radio" value="Male">
+              <label>Male</label><br>
+              <input type="radio" id="female" name="radio" value="Female">
+              <label>Female</label><br>
+              <input type="radio" id="other" value="Other">
+              <label>Other</label>
+            <p><label>Date Of Proposed Outing:</label>
+               <input type="date" id="outing" name="outing">
+            </p>
+            <p>Check All That Apply</p>
+            <p><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+               <label for="vehicle1"> I have a bike</label><br>
+               <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+               <label for="vehicle2"> I have a car</label><br>
+               <input type="checkbox" id="vehicle3" name="vehicle3" checked value="Bus">
+               <label for="vehicle3"> I have a bus</label>
+            </p>
+            <p>
+               <label>Political Persuasion : </label>
+               <select id="political">
+                  <option value="left wing">Left Wing</option>
+                  <option value="moral reframing">Moral reframing</option>
+               </select>
+               <label>Educational level completed :</label>
+               <select id="educational">
+                  <option value="univercity">Univercity</option>
+                  <option value="Hight school">High School</option>
+               </select>
+            </p>
+            <h3>Essay Section</h3>
+            <p>In 50 words or more explain why you want to Date my daughter
+               <br><br>
+               <textarea id="subject" name="subject" placeholder="Enter text here" style="height:200px; width:300px;"></textarea>
+            </p>
+            <p>Please Upload contact details for 2 refrence<br><br>
+               <textarea id="contact-details"  placeholder="Enter text here" style="height:200px; width:300px"></textarea>
+            </p>
+            <p><label for="files">Upload Police clearance certificate, Bank Statement:</label>
+               <input type="file" value="Attach Files"  id="files" name="files" multiple><br><br>
+            </p>
+            <input class="btn" type="submit" value="Send Your Application" style=" text-align:center;background: rgb(234, 117, 64);">
+         </form>
+      </div>
+   </body>
+</html>

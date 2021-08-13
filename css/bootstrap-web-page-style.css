@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar-header {
+    height: 85px;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  .nav li a {
+    color: #fff !important;
+  }
+  .navbar-nav > .active a {
+    background-color: transparent !important;
+    color: #64b946 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #64b946 !important;
+  }
+  
+  .sign-in {
+    background: #64b946;
+    border-radius: 9px;
+    padding: 13px 25px;
+    text-align: center;
+    margin-left: 10px;
+    width: 150px;
+  }
+  .sign-in:hover {
+    background-color: #fff !important;
+    color: #64b946;
+  }
+  .banner {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+  }
+  .banner-text h1 {
+    font-size: 5vw;
+  }
+  .banner-text p {
+    font-size: 2vw;
+  }
+  .services {
+    background-image: url("../images/background1.png");
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+  }
+  .services img {
+    width: 100%;
+  }
+  
+  .services .card {
+    transition: all 0.3s linear;
+    margin-top: 20px;
+  }
+  .services .card:hover {
+    transform: scale(1.1);
+    color: #64b946;
+  }
+  .footer-bacground {
+    background-color: #222;
+    border-color: #080808;
+    color: #fff;
+  }
+  
