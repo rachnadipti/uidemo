@@ -80,6 +80,7 @@ body {
   }
   .product-card img {
     height: 150px;
+    object-fit: contain;
   }
   .how-help .img-card .imgs img {
     width: 64px;
@@ -118,6 +119,10 @@ body {
   .about-us {
     text-align: center;
     margin: auto;
+    width: 100%;
+  }
+  .about-us img {
+    width: 100%;
   }
   .gal-img img {
     width: 100%;
@@ -127,6 +132,7 @@ body {
   }
   .video iframe {
     border-radius: 20px;
+    width: 100%;
   }
   .video p {
     text-align: center;
