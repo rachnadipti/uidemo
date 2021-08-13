@@ -13,7 +13,7 @@ body {
     font-weight: bold;
   }
   .social-header {
-    background-color: greenyellow;
+    background-color: #84c225;
   }
   .social-icon li .fa {
     font-weight: bold;
@@ -44,10 +44,10 @@ body {
     float: right;
   }
   .navbar-form .input-group-btn .btn {
-    background: greenyellow;
+    background: #84c225;
   }
   .navbar-brand {
-    background: greenyellow !important;
+    background: #84c225 !important;
     color: black !important;
   }
   .navbar-nav a {
@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     color: black;
     text-align: center;
-    background: greenyellow;
+    background: #84c225;
     padding: 9px 20px;
     border-radius: 20px;
     margin-top: 15px;
@@ -84,7 +84,7 @@ body {
   }
   .how-help .img-card .imgs img {
     width: 64px;
-    background: greenyellow;
+    background: #84c225;
     padding: 20px;
     border-radius: 50%;
     text-align: center;
@@ -138,13 +138,13 @@ body {
     text-align: center;
   }
   .contact-us .fa {
-    background: greenyellow;
+    background: #84c225;
     padding: 6px 9px;
     border-radius: 50%;
   }
   .contact-us .btn {
     padding: 8px 15px;
-    background: greenyellow;
+    background: #84c225;
     margin-top: 20px;
     border-radius: 20px;
     font-weight: bold;
