@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>difference between a given number and 13, if the number is greater than 13 return double the absolute
+        difference.</title>
+        <style>
+            body {
+                margin: 50px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+</head>
+
+<body>
+    <p>Get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.</p>
+    <script>
+        function diff(n) {
+            if (n <= 13)
+                return 13 - n;
+            else
+                return (n - 13) * 2;
+        }
+        document.write(diff(23));
+        document.write('<br> <br>');
+        document.write(diff(6));
+
+    </script>
+</body>
+
+</html>

@@ -1531,9 +1531,7 @@ button.search-toggle-bg {
 .bg-boosting:hover img, .bg-index-artificial:hover img, .bg-index-events:hover img, .bg-index-research:hover img {
 	transform: scale(1.1);
 }
-/*.bg-boosting:hover .latest-event-box-last, .bg-index-artificial:hover .latest-event-box, .bg-index-events:hover .latest-event-box-last, .bg-index-research:hover .latest-event-box {
-	bottom: 10px;
-}*/
+
 .overflow-hidden {
 	overflow: hidden;
 }

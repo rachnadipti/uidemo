@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        const createClock = setInterval(displayTime, 1000);
+        function displayTime() {
+            let date = new Date();
+            let time = date.toLocaleTimeString();
+            document.getElementById('demo').textContent = time;
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html> 
+  <head>
+  <title>Leap Year</title>
+  <style>
+    body {
+        margin: 50px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+  </head>
+  <body>
+    <p>Leap Year</p>
+      <p id="demo"></p>
+      <p id="test"></p>
+      <p id="test1"></p>
+      <script type="text/javascript">
+        function leapyear(year)
+      {
+      return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+      }
+      document.getElementById("demo").innerHTML= leapyear(2016)
+      document.getElementById("test").innerHTML= leapyear(1600)
+      document.getElementById("test1").innerHTML= leapyear(2002)
+      </script>
+</body>
+  </html>

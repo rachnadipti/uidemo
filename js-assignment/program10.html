@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title> multiplication and division of two numbers </title>
+    <style type="text/css">
+        body {
+            margin: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form,
+        p {
+            text-align: center;
+        }
+
+        form {
+            width: 300px;
+            text-align: center;
+            margin: auto;
+            background: beige;
+            padding: 50px;
+            border-radius: 20px;
+        }
+
+        form input {
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Multiplication and division of two numbers</p>
+    <form>
+        1st Number : <input type="text" id="fnum" /><br>
+        2nd Number: <input type="text" id="lnum" /><br>
+        <input type="button" onClick="multiplyBy()" Value="Multiply" />
+        <input type="button" onClick="divideBy()" Value="Divide" />
+    </form>
+    <p> Result is : <br>
+        <span id="result"></span>
+    </p>
+    <script>
+        function multiplyBy() {
+            num1 = document.getElementById("fnum").value;
+            num2 = document.getElementById("lnum").value;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+
+        function divideBy() {
+            num1 = document.getElementById("fnum").value;
+            num2 = document.getElementById("lnum").value;
+            document.getElementById("result").innerHTML = num1 / num2;
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>calculate days left until next Christmas</title>
+    <style>
+        body {
+            margin: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>calculate days left until next Christmas</p>
+    <script>
+        today = new Date();
+        var chris = new Date(today.getFullYear(), 11, 25);
+        if (today.getMonth() == 11 && today.getDate() > 25) {
+            chris.setFullYear(chris.getFullYear() + 1);
+        }
+        var one_day = 1000 * 60 * 60 * 24;
+        document.write("Woohoo" + Math.ceil((chris.getTime() - today.getTime()) / (one_day)) +
+            " days left to come Christmas...");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>variable using a user-defined name</title>
+    <style>
+        body {
+            margin: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>create a variable using a user-defined name.</p>
+    <script>
+        var name = 'myname';
+        var myname = 1234;
+        this[name] = myname;
+        document.write(this[name]);
+
+    </script>
+</body>
+
+</html>

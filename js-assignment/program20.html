@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>check from two given integers, whether one is positive and another one is negative.</title>
+    <style>
+        body {
+            margin: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>check from two given integers, whether one is positive and another one is negative.</p>
+    <script>
+        function positive_negative(a, b) {
+            if ((a < 0 && b > 0) || a > 0 && b < 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        document.write(positive_negative(3, 3));
+        document.write(positive_negative(-4, 4));
+        document.write(positive_negative(5, -5));
+        document.write(positive_negative(-2, -2));
+
+    </script>
+</body>
+</html>
