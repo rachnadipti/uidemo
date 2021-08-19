@@ -1,0 +1,14 @@
+{
+  "dept": [
+    {
+      "id": 1,
+      "dname": "Adminerueruo",
+      "loc": "Chennai"
+    },
+    {
+      "id": 2,
+      "dname": "HRkfjdlkfjdlk",
+      "loc": "delhi"
+    }
+  ]
+}
