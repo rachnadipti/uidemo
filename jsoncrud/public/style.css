@@ -1,0 +1,76 @@
+body {
+    width: 80vw;
+    margin: 50px auto;
+}
+.create_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 800px;
+    margin: auto;
+}
+.create_buttons h3{
+    margin: 15px 0;
+}
+.modal-header {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    border-radius: 5px;
+}
+table {
+    margin-bottom: 1px !important;
+}
+.dynamic_list {
+    border: 3px solid #0f2027;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #0f2027;
+    background: #fff;
+}
+#add_btn, #edit_btn, #delete_btn, #delete_all_btn {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+.fetch_data {
+    margin: 10px auto;
+}
+th, td{
+    text-align: center!important;
+}
+#addModal .modal-content{
+    border-radius: none !important;
+}
+#addModal .modal-footer {
+    background-color: transparent;
+}
+#addModal .btn, #editModal .btn{
+    margin: auto;
+    display: block;
+    padding: 8px 25px;
+}
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+        margin: 0px auto;
+   }
+    .create_buttons, .dynamic_list {
+        width: 100%;
+   }
+    #add_btn, #edit_btn, #delete_btn, #delete_all_btn {
+        font-size: 14px;
+        margin: 0 5px;
+   }
+    .create_buttons h3 {
+        font-size: 15px;
+   }
+}

@@ -1,0 +1,14 @@
+{
+  "emp": [
+    {
+      "ename": "Rachna",
+      "profile": "Bed",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "ename": "Prerna",
+      "profile": "Fed"
+    }
+  ]
+}
