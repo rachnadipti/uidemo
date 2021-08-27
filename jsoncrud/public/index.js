@@ -119,3 +119,5 @@ $('table').on('click', '#delete_btn', function(e) {
 	getData();
 
 })
+
+module.exports.getData = getData;
